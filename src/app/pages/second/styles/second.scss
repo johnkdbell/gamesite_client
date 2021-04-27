@@ -1,0 +1,82 @@
+.topRow
+{
+  background-image: linear-gradient(rgba(7, 0, 14, 0.75), transparent);
+  padding-left: 5%;
+  padding-right: 5%;
+  
+  .newsSquare
+  {
+    border: 1px solid rgb(0, 0, 0);
+    background-color:rgba(0, 39, 58, 0.198);
+    text-align: center;
+    color: white;
+    box-shadow: 2px 4px 4px -2px rgba(0, 0, 0, 0.5), 0 0 0 0 rgb(0,0,0);
+  }
+
+  .boxo1, .boxo2, .boxo3, .boxo4 
+    {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;      /* Center children horizontally */
+      justify-content: center;  /* Center children vertically */
+      align-self: center;
+      background: linear-gradient(rgb(226, 226, 226), rgb(255, 255, 255)) ;
+      text-align: center;
+      color: black;
+      border-radius: 0.25em;  
+      cursor: pointer;
+      transition: all 0.2s;
+      box-shadow: 2px 4px 4px -2px rgba(0, 0, 0, 0.1), 0 0 0 0 rgb(0,0,0);  
+
+    }
+
+    .boxo1:hover, .boxo2:hover, .boxo3:hover, .boxo4:hover 
+    {
+      transition: all 0.4s;
+      transform: scale(1.02);
+      background: linear-gradient(rgb(226, 226, 226), rgb(234, 221, 255)) ;
+      box-shadow: 2px 4px 4px -2px rgba(63, 0, 82, 0.4), 0 0 0 0 rgb(0,0,0);
+ 
+    }
+     
+    .boxo1 img, .boxo4 img
+    {
+      margin-top: 4%;
+      object-fit: cover;
+      width: calc(17vw + 1vw);
+      height: calc(11vw + 1vw);
+      filter: saturate(60%);   
+    }
+
+    .boxo2 img, .boxo3 img
+    { 
+      margin-top: 4%;
+      margin-bottom: 4%;
+      object-fit: cover;
+      width: calc(15vw + 1vw);
+      height: calc(11vw + 1vw);
+      filter: saturate(60%);
+    }
+
+    .boxo1:hover img, .boxo2:hover img, .boxo3:hover img, .boxo4:hover img
+    {
+      transition: ease-in 0.2s;
+      box-shadow: 2px 4px 4px -2px rgba(63, 0, 82, 0.8), 0 0 0 0 rgb(0,0,0);
+      transform: scale(1.015);
+      filter: saturate(100%);
+    }
+
+    .boxo1 p, .boxo2 p
+    {
+      width: 100%;
+      text-transform: capitalize;      
+    }
+
+    .boxo1 h2, .boxo2 h2
+    {
+      width: 100%;
+      text-transform: capitalize;      
+    }
+
+  
+}

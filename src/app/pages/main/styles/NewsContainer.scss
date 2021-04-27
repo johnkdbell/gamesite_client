@@ -1,0 +1,200 @@
+.secondRowRight
+{
+
+  ///////////////////VERTICAL///////////////////
+
+  .NewsContainerVer
+  {
+    margin: calc(0.5vw + 0.1px);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    background: linear-gradient(rgb(226, 226, 226), rgb(255, 255, 255)) ;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 2px 4px 4px -2px rgba(0, 0, 0, 0.1), 0 0 0 0 rgb(0,0,0);  
+
+  }
+
+  .NewsContainerVer:hover
+  {
+    transition: ease-in 0.1s;
+    background: linear-gradient(rgb(226, 226, 226), rgb(234, 221, 255)) ;
+    box-shadow: 2px 4px 4px -2px rgba(63, 0, 82, 0.4), 0 0 0 0 rgb(0,0,0);
+
+  }
+    
+  .NewsContainerVer img
+  {
+    margin-top: 4%;
+    margin-bottom: 2%;
+    object-fit: cover;
+    width: 100%;
+    height: calc(20vh + 30%);
+    filter: saturate(60%); 
+  }
+
+  .NewsContainerVer:hover img
+  {
+    transition: ease-in 0.2s;
+    filter: saturate(100%);
+  }
+
+  .separatorLineHor
+  {
+    width: 25%;
+    margin-top: 10px;
+    margin-left: 37.5%;
+    height: 3px;
+    border-radius: 40em;
+    background-color: rgba(137, 43, 226, 0.5);
+  }
+
+  .NewsContainerVer h2
+  {
+    font-size: calc(0.7vw + 10px);
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px rgb(195, 161, 226);
+    width: 100%;
+    text-align: left;
+    line-height: 1.3em;
+    font-weight: 600;
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    text-transform: capitalize;
+    font-family: 'Exo 2', sans-serif;
+  }
+
+  .NewsContainerVer p
+  {
+    font-size: calc(0.7vw + 5px);
+    color: rgb(63, 0, 105);
+    width: 100%;
+    text-align: left;
+    line-height: 1.3em;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-family: 'Courier Prime', monospace;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;    
+  }
+
+  ///////////////////HORIZONTAL///////////////////
+
+  .NewsContainerHor
+  {
+    margin: calc(0.5vw + 0.1px);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    background: linear-gradient(rgb(226, 226, 226), rgb(255, 255, 255)) ;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 2px 4px 4px -2px rgba(0, 0, 0, 0.1), 0 0 0 0 rgb(0,0,0);
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+  }
+
+
+  .NewsContainerHor:hover
+  {
+    transition: all 0.4s;
+    background: linear-gradient(rgb(226, 226, 226), rgb(234, 221, 255)) ;
+    box-shadow: 2px 4px 4px -2px rgba(63, 0, 82, 0.4), 0 0 0 0 rgb(0,0,0);
+
+  }
+
+  .NewsContainerHor img
+  { 
+    margin-top: 4%;
+    margin-bottom: 2%;
+    object-fit: cover;
+    width: 100%;
+    height: calc(20vh + 30px);
+    filter: saturate(60%);
+  }
+
+  .NewsContainerHor:hover img
+  {
+    transition: all 0.2s;
+    filter: saturate(100%);
+  }
+
+  .separatorLineVer
+  {
+    width: 2.5px;
+    height: 7.5em;
+    margin-left: 45%;
+    border-radius: 40em;
+    background-color: rgba(137, 43, 226, 0.5);
+  }
+
+  .NewsContainerHor h2
+  {
+    font-size: calc(0.7vw + 10px);
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px rgb(195, 161, 226);
+    width: 100%;
+    text-align: left;
+    line-height: 1.3em;
+    font-weight: 600;
+    padding-left: 4%;
+    padding-right: 4%;
+    text-transform: capitalize;
+    font-family: 'Exo 2', sans-serif;
+  }
+
+  .NewsContainerHor p
+  {
+    font-size: calc(0.7vw + 5px);
+    color: rgb(63, 0, 105);
+    width: 100%;
+    text-align: left;
+    line-height: 1.3em;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-family: 'Courier Prime', monospace;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;    
+  }
+
+  news
+  {
+    display: inline-block;
+    height: 1.5em;
+    width: 3.5em;
+    font-size: calc(0.7vw + 8px);
+    color: white;
+    text-shadow: none;
+    background-color: rgb(85, 0, 150);
+    margin-right: 0.25em;
+    padding-left: 0.3em;
+    border-radius: 1em;
+  }
+
+  review
+  {
+    display: inline-block;
+    height: 1.5em;
+    width: 4.25em;
+    font-size: calc(0.7vw + 8px);
+    color: white;
+    text-shadow: none;
+    background-color: rgb(165, 0, 82);
+    margin-right: 0.25em;
+    padding-left: 0.3em;
+    border-radius: 1em;
+  }
+
+}

@@ -1,0 +1,70 @@
+body.theBod
+{
+  padding-top: 1.5em;
+  background-color: unset;
+  background: unset;
+  height: 100%;
+}
+
+
+.topPad
+{
+  padding-top: 4.5em;
+  background-color: rgba(7, 0, 14, 0.75);
+}
+
+.topRow
+{
+  background-image: linear-gradient(rgba(7, 0, 14, 0.75), transparent);
+  padding-left: 5%;
+  padding-right: 5%;
+
+  .r
+  {
+    border: 1px solid rgb(0, 0, 0);
+    background-color:rgba(0, 39, 58, 0.198);
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    box-shadow: 2px 4px 4px -2px rgba(0, 0, 0, 0.5), 0 0 0 0 rgb(0,0,0);
+    height: 20em;
+  }
+
+}
+
+.secondRow
+{
+  padding-left: 5%;
+  padding-right: 5%;
+
+  .padder
+  {
+    padding-top: 0.01em;
+  }
+
+  .padderVert
+  {
+    padding-left: 1em;
+  }
+
+  .newsSquare
+  {
+    border: 1px solid rgb(0, 0, 0);
+    background-color:rgba(0, 39, 58, 0.198);
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    box-shadow: 2px 4px 4px -2px rgba(0, 0, 0, 0.5), 0 0 0 0 rgb(0,0,0);
+    height: 0 auto;
+
+    top: 0;
+    display: block;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+  }
+}
+
+
+
