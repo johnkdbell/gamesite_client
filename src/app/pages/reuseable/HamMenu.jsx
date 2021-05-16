@@ -14,13 +14,13 @@ class HamMenu extends Component
     current: 'mail',
     visible: false
   }
-  
+
   showDrawer = () => {
     this.setState({
       visible: true,
     });
   };
-  
+
   onClose = () => {
     this.setState({
       visible: false,
@@ -31,7 +31,7 @@ class HamMenu extends Component
 	{
 		return (
     <>
-      <div className="navHamburgerMenu">            
+      <div className="navHamburgerMenu">
         <Button className="navMenu" type="primary" onClick={this.showDrawer}>
           <span className="navBtn">
             <a href="javascript:void(0)" className="hamMenuIcon">
@@ -41,7 +41,6 @@ class HamMenu extends Component
         </Button>
 
         <Drawer
-          className="garfield"
           title="Hamburger Menu"
           placement="top"
           closable={true}
@@ -49,10 +48,10 @@ class HamMenu extends Component
           visible={this.state.visible}
         >
           <LeftMenu />
-        </Drawer>   
+        </Drawer>
       </div>
 
-    </> 
+    </>
 		);
 	}
 }

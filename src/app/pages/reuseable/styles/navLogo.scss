@@ -1,8 +1,8 @@
-.logboy
+.navSet
 {
   position: absolute;
   left: 50%;
-  margin-left: -50px !important;  /* 50% of your logo width */
+  margin-left: -50px !important;  /* 50% of logo width */
   display: block;
 }
 
@@ -15,9 +15,9 @@
 }
 
 
-.buuton
+.logo
 {
-  padding-top: 1em;  
+  padding-top: 1em;
   padding-bottom: 1em;
   margin-top: 0.65em;
   width: 6.5em;
@@ -28,7 +28,7 @@
   transition: all .4s;
 }
 
-.buuton:hover
+.logo:hover
 {
   background: rgba(137, 43, 226, 0.568);
   color: white;
@@ -36,28 +36,10 @@
   transform: scale(1.25);
 }
 
-.navLogo3
-{
-  background: url('../../../../assets/images/logo.svg') no-repeat;
-  height: 50px;
-  width: 150px;
-  padding: 0px;
-}
-
-.navLogo4
-{
-  background: url('../../../../assets/images/logo.svg') no-repeat;
-  height: 50px;
-  width: 150px;
-  padding: 0px;
-}
-
-#booga.ant-popover-inner
+#logoPopContainer.ant-popover-inner
 {
   width: 9em;
 }
-
-
 
 body.dark-mode
 {
@@ -76,13 +58,13 @@ body.dark-mode
     background: url('../../../../assets/images/logo.svg') no-repeat;
   }
 
-  #booga.ant-popover-inner
+  #logoPopContainer.ant-popover-inner
   {
     background-color: black;
     width: 9em;
   }
 
-  #booga.ant-popover-placement-top > .ant-popover-content > #booga.ant-popover-arrow,
+  #logoPopContainer.ant-popover-placement-top > .ant-popover-content > #logoPopContainer.ant-popover-arrow,
   .ant-popover-placement-bottom > .ant-popover-content > .ant-popover-arrow
   {
     bottom: 6.2px;

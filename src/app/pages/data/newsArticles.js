@@ -15,7 +15,7 @@ const Articles = {
       author: "John Distefano-Bell",
       articleType: "news",
       articleImage: "https://cdn.vox-cdn.com/uploads/chorus_image/image/66115187/Screen_Shot_2019_06_09_at_4.22.17_PM.0.png",
-      articleTitle: "fsddfggh",
+      articleTitle: "Despite its flaws, Cyberpunk 2077 is still a success",
       articleText: "Dangerous passage vault aside daemonic dreams absolutely solar coming.",
     },
     {
@@ -33,7 +33,7 @@ const Articles = {
       author: "John Distefano-Bell",
       articleType: "news",
       articleImage: "https://i.ytimg.com/vi/BUhuOwwD4n8/maxresdefault.jpg",
-      articleTitle: "fsddfggh",
+      articleTitle: "Example Title",
       articleText: "Dangerous passage vault aside daemonic dreams absolutely solar coming.",
     },
     {

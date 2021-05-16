@@ -13,13 +13,13 @@ const content1 = (
 
 class NavLogo extends Component
 {
-  render() 
+  render()
   {
     return (
       <>
         <div>
-          <Popover id="booga" className="logboy" placement="bottom" content={content1} trigger="click contextMenu">
-            <label className="buuton"><div className="navLogoButton"></div></label>
+          <Popover id="logoPopContainer" className="navSet" placement="bottom" content={content1} trigger="click contextMenu">
+            <label className="logo"><div className="navLogoButton"></div></label>
           </Popover>
         </div>
       </>

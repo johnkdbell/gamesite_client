@@ -8,12 +8,12 @@ import MainPage from "./pages/main/MainPage";
 import SecondPage from "./pages/second/SecondPage";
 
 class App extends Component {
-  render() 
+  render()
   {
     return (
       <Fragment>
         <Router>
-          <Route exact path='/' component={MainPage} />          
+          <Route exact path='/' component={MainPage} />
           <Route exact path='/second' component={SecondPage} />
         </Router>
       </Fragment>
